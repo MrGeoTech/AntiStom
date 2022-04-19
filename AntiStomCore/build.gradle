@@ -7,9 +7,7 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation 'com.github.Minestom:Minestom:a4adbb49fe'
 }
