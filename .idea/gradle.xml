@@ -9,6 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AntiStomCore" />
+            <option value="$PROJECT_DIR$/AntiStomMinestom" />
           </set>
         </option>
       </GradleProjectSettings>
