@@ -14,6 +14,7 @@ public record PlayerSnapshot(
         double swimSpeed,
         double additionalSpeedMultipliers,
         double fallDistance,
+        double iceVelocity,
         int latency,
         int ticksSinceLastBoost,
         boolean isOnSoulSand,
