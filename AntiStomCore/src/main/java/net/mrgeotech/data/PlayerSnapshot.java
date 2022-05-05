@@ -15,6 +15,7 @@ public record PlayerSnapshot(
         double additionalSpeedMultipliers,
         double fallDistance,
         double iceVelocity,
+        double vehicleMaxSpeed,
         int latency,
         int ticksSinceLastBoost,
         boolean isOnSoulSand,
