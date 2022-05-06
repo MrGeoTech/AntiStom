@@ -1,4 +1,5 @@
 rootProject.name = 'AntiStom'
 include 'AntiStomCore'
+project(':AntiStomCore').projectDir = new File('./AntiStomCore')
 include 'AntiStomMinestom'
 

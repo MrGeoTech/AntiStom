@@ -11,5 +11,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Minestom:Minestom:a4adbb49fe'
+    implementation 'com.github.Minestom:Minestom:-SNAPSHOT'
+    implementation project(":AntiStomCore")
 }

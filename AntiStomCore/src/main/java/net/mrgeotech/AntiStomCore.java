@@ -1,6 +1,6 @@
 package net.mrgeotech;
 
-public class AntiStom {
+public class AntiStomCore {
 
 
 

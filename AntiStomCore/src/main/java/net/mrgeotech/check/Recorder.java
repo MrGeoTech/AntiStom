@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Recorder {
 
-    private final static String FILE_NAME = "results.txt";
+    private final static String FILE_NAME = System.getProperty("user.dir") + "results.txt";
 
     private static List<PlayerSnapshot> snapshots;
 
