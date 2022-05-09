@@ -3,6 +3,9 @@ package net.mrgeotech.data;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public record PlayerSnapshot(
         double x,
         double y,
@@ -45,5 +48,5 @@ public record PlayerSnapshot(
         boolean wasMovedByPiston,
         boolean hasGravity,
         @NotNull PlayerGamemode gamemode,
-        @Nullable MovementEffect[] effects) {
+        @Nullable Map<MovementEffect, Byte> effects) {
 }
